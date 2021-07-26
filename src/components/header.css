@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  /* revise these 2 props */
+  align-items: center;
+  justify-content: space-between;
+  /* this justify-content property is spacing the child inside the element having header class with equal spaces in between  */
+
+  z-index: 100;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+.header_logo {
+  object-fit: contain;
+  /* this above property keeps the aspect ratio */
+  height: 40px;
+}
+
+.header_icon {
+  padding: 20px;
+}
